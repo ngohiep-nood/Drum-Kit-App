@@ -7,29 +7,58 @@ body,html{
     width: 100%;
     background-color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(to bottom, white, rgb(55, 67, 68))
 }
 .key{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, .7);
     height: 3em;
     width: 4.3em;
     margin: 2%;
     text-align: center;
+    justify-content: center;
     border-radius: 6%;
     font-size: 20px;
     font-weight: 700;
     transition: all 0.2s;
-    border: solid 3px rgb(112, 110, 110);
+    border: solid 3px rgb(255, 255, 255);
     opacity: 0.5;
     display: flex;
     flex-direction: column;
 }
 .playing{
     transform: scale(1.1);
-    border: solid 3px rgb(223, 42, 42);
-    color: rgb(224, 49, 49);
+    border: solid 3px rgba(211, 223, 42, 0.9);
+    color: rgb(215, 252, 9);
 }
 kbd{
     font-size: 130%;
+    font-family: 'Oswald', sans-serif;
+}
+span{
+    font-family: 'Oswald', sans-serif;
+}
+.title{
+    font-family: 'Anton', sans-serif;
+    font-size: 400%;
+    font-weight: 700;
+    color: black;
+    margin: 0 auto;
+    top: 20%;
+    position: absolute;
+}
+.main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+header{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 0%;
+    right: 1%;
+    font-size: 120%;
 }

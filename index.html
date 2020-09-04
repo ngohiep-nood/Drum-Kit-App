@@ -4,65 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drum kit app</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-        <div class="key" data-key='65'>
-            <kbd>A</kbd>
-            <span>bot</span>
-        </div>
-
-        <div class="key" data-key='83'>
-            <kbd>S</kbd>
-            <span>snare</span>
-        </div>
-
-        <div class="key" data-key='68'>
-            <kbd>D</kbd>
-            <span>bis</span>
-        </div>
-
-        <div class="key" data-key='70'>
-            <kbd>F</kbd>
-            <span>bumm</span>
-        </div>
-
-        <div class="key" data-key='71'>
-            <kbd>G</kbd>
-            <span>clap</span>
-        </div>
-
-        <div class="key" data-key='72'>
-            <kbd>H</kbd>
-            <span>cymm</span>
-        </div>
-
-        <div class="key" data-key='74'>
-            <kbd>J</kbd>
-            <span>ting</span>
-        </div>
-
-        <div class="key" data-key='75'>
-            <kbd>K</kbd>
-            <span>bomm</span>
-        </div>
-
-        <div class="key" data-key='76'>
-            <kbd>L</kbd>
-            <span>Chelm</span>
+    <header>JS #2 - Drum kit</header>
+        <div class="title">THE DRUM KIT</div>
+        <div class="main-section">
+            <div class="key" data-key='65'>
+                <kbd>A</kbd>
+                <span>bot</span>
+            </div>
+    
+            <div class="key" data-key='83'>
+                <kbd>S</kbd>
+                <span>snare</span>
+            </div>
+    
+            <div class="key" data-key='68'>
+                <kbd>D</kbd>
+                <span>bis</span>
+            </div>
+    
+            <div class="key" data-key='70'>
+                <kbd>F</kbd>
+                <span>bumm</span>
+            </div>
+    
+            <div class="key" data-key='71'>
+                <kbd>G</kbd>
+                <span>clap</span>
+            </div>
+    
+            <div class="key" data-key='72'>
+                <kbd>H</kbd>
+                <span>cymm</span>
+            </div>
+    
+            <div class="key" data-key='74'>
+                <kbd>J</kbd>
+                <span>ting</span>
+            </div>
+    
+            <div class="key" data-key='75'>
+                <kbd>K</kbd>
+                <span>bomm</span>
+            </div>
+    
+            <div class="key" data-key='76'>
+                <kbd>L</kbd>
+                <span>Chelm</span>
+            </div>
         </div>
        
-        <audio src="1.wav" data-key='65'></audio>
-        <audio src="2.wav" data-key='83'></audio>
-        <audio src="3.wav" data-key='68'></audio>
-        <audio src="4.wav" data-key='70'></audio>
-        <audio src="5.wav" data-key='71'></audio>
-        <audio src="6.wav" data-key='72'></audio>
-        <audio src="7.wav" data-key='74'></audio>
-        <audio src="8.wav" data-key='75'></audio>
-        <audio src="9.wav" data-key='76'></audio>
-        
-</body>
+    </body>
+    <audio src="1.wav" data-key='65'></audio>
+    <audio src="2.wav" data-key='83'></audio>
+    <audio src="3.wav" data-key='68'></audio>
+    <audio src="4.wav" data-key='70'></audio>
+    <audio src="5.wav" data-key='71'></audio>
+    <audio src="6.wav" data-key='72'></audio>
+    <audio src="7.wav" data-key='74'></audio>
+    <audio src="8.wav" data-key='75'></audio>
+    <audio src="9.wav" data-key='76'></audio>
+    
 
 <script>
     window.addEventListener('keydown',function(e) {
